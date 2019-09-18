@@ -1,0 +1,60 @@
+/********************/
+/***** VARIABLES ****/
+/********************/
+
+//couleurs
+
+$background-color: #eee;
+$text-color: #444;
+$header-color: #2aa2d1;
+$link-color: #1991c0;
+$link-hover-color: #000;
+
+//fonts
+
+/* 
+Fonts: 
+    Arial, Helvetica Neue, Helvetica, sans-serif
+*/
+$font-base: Arial, Helvetica Neue, Helvetica, sans-serif;
+
+/********************/
+/******* BASE *******/
+/********************/
+
+
+html {
+    box-sizing: border-box;
+    font-size: 63.5%;
+    font-family: $font-base;
+}
+
+body {
+    max-width: 1140px;
+    background-color: $background-color;
+    color: $text-color;
+}
+
+a {
+    color: $link-color;
+    :hover {
+        color: $link-hover-color;
+    }
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
+  
+  /* ==========================================
+  Single-colored icons can be modified like so:
+  .icon-name {
+    font-size: 32px;
+    color: red;
+  }
+  ========================================== */
