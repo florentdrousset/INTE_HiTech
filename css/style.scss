@@ -108,8 +108,6 @@ header {
         }
     }
     ul {
-        list-style: none;
-        background-color: rgba(255, 255, 255, 0.3);
         li {
             display: flex;
             span {
@@ -134,12 +132,17 @@ header {
     }
 }
 
-.header__navbar ul li{
+.navbar ul {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar ul li{
     margin: auto;
     text-align: center;
 }
 
-.header__navbar a {
+.navbar a {
     display: flex;
     padding: 1em;
     text-align:center;
@@ -205,7 +208,142 @@ main {
 }
 
 .main__paiement {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color: #eee;
+    div {
+        p {
+        }
+        small {
+
+        }
+    }
+    .product__garantie {
+        align-self: flex-end;
+        background-color: #DDD;
+        width: 100%;
+        text-align: center;
+        padding: 1rem;
+
+    }
+    a {
+        margin: auto;
+        display: block;
+        width: 80%;
+        line-height: 4rem;
+        text-align: center;
+    }
+}
+
+.button__div {
+    text-align: center;
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.main_button {
+    margin: auto;
+    width: 80%;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    line-height: 4rem;
+    background-color: $link-color;
+    color: white;
+
+}
+
+.price {
+    font-size: 4rem;
+    margin-top: 10rem;
+    margin-bottom: 0;
+    margin-left: 2rem;
 }
 
 
+
+/********************/
+/******* FOOTER *****/
+/********************/
+
+footer {
+    background-image: url('../images/footer.jpg');
+    background-size: cover;
+    background-position: 50% 80%;
+    color: #ccc;
+    h2 {
+        margin-top: 7rem;
+        font-size: 4rem;
+        text-align: center;
+    }
+}
+
+.footer__navbar {
+    background-color: grey;
+    color: white;
+    ul {
+        padding: 0;
+        text-align: center;
+        margin: auto;
+        li {
+            display: flex;
+            margin: auto;
+            text-align: center;
+            span {
+                margin: auto;
+            }
+            p {
+                margin: auto;
+            }
+
+        }
+    }
+
+}
+
+.footer > ul {
+    list-style: none;
+    padding: 0;
+    a {
+        color: white;
+    }
+    li {
+        margin: 1rem;
+      text-align: center;
+    }
+}
+
+.payment {
+    display: flex;
+    justify-content: space-around;
+    div {
+        border-radius: 3px;
+        width: 22%;
+        height: 8rem;
+        background-image: url('../images/payment.png');
+        background-size: cover;
+    }
+    div:nth-of-type(1) {
+        background-position: 25%;
+    }
+
+    div:nth-of-type(2) {
+        background-position: 0;
+    }
+
+    div:nth-of-type(3) {
+        background-position: 50%;
+    }
+    div:nth-of-type(4) {
+        background-position: 75%;
+    }
+}
+
+.social-icons {
+    text-align: center;
+    span[class*="icon"] {
+        font-size: 3rem;
+        margin-right: 2rem;
+    }
+}
