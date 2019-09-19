@@ -1,10 +1,6 @@
 /********************/
 /***** VARIABLES ****/
 /********************/
-/* 
-Fonts: 
-    Arial, Helvetica Neue, Helvetica, sans-serif
-*/
 /********************/
 /******* BASE *******/
 /********************/
@@ -12,11 +8,12 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   font-size: 63.5%;
-  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-family: "Open Sans";
 }
 
 body {
   max-width: 1140px;
+  font-size: 1.6rem;
   background-color: #eee;
   color: #444;
 }
@@ -45,4 +42,51 @@ a :hover {
     color: red;
   }
   ========================================== */
+/********************/
+/****** HEADER ******/
+/********************/
+header {
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+  background-position: 50%;
+  text-align: center;
+}
+
+header .header_logo {
+  width: 20%;
+  margin: 2rem auto 0 auto;
+}
+
+header form {
+  display: none;
+}
+
+header ul {
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+header ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li span {
+  color: white;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  margin: 0;
+}
+
+header h2 {
+  text-align: center;
+  font-size: 1.6rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
 /*# sourceMappingURL=style.css.map */

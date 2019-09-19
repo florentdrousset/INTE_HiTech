@@ -12,11 +12,18 @@ $link-hover-color: #000;
 
 //fonts
 
-/* 
-Fonts: 
-    Arial, Helvetica Neue, Helvetica, sans-serif
-*/
-$font-base: Arial, Helvetica Neue, Helvetica, sans-serif;
+$font-base: 'Open Sans';
+$font-title: 'Raleway';
+
+//misc
+
+$border-sm: 1px solid #eee;
+$border-md: 1px solid #ddd;
+$border-lg: 2px solid #ddd;
+
+$shadow-sm: 0 0 1px rgba(0,0,0,0.2);
+$shadow-md: 0 0 3px rgba(0,0,0,0.3);
+$shadow-lg: 0 0 5px rgba(0,0,0,0.4);
 
 /********************/
 /******* BASE *******/
@@ -31,6 +38,7 @@ html {
 
 body {
     max-width: 1140px;
+    font-size: 1.6rem;
     background-color: $background-color;
     color: $text-color;
 }
@@ -49,7 +57,7 @@ a {
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
-  }
+}
   
   /* ==========================================
   Single-colored icons can be modified like so:
@@ -58,3 +66,50 @@ a {
     color: red;
   }
   ========================================== */
+
+/********************/
+/****** HEADER ******/
+/********************/
+
+header {
+    background-image: url('../images/header.jpg');
+    background-size: cover;
+    background-position: 50%;
+    text-align: center;
+
+
+    .header_logo {
+        width: 20%;
+        margin: 2rem auto 0 auto;
+    }
+
+    form {
+        display: none;
+    }
+
+    ul {
+        list-style: none;
+        background-color: rgba(255, 255, 255, 0.3);
+        li {
+            display: flex;
+            span {
+                color: white;
+            }
+        }
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        text-shadow: $shadow-lg;
+        margin: 0;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.6rem;
+        color: rgba(255, 255, 255, 0.5);
+        margin: 0;
+
+    }
+}

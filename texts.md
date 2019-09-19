@@ -54,64 +54,64 @@ Vous voulez utiliser votre écran même dans un environnement très lumineux, à
 # Caractéristiques techniques
 
 ## Affichage
-- Taille de l'écran:	23.8 pouces
-- Format de l'écran:	16/9
-- Type de Dalle:	Dalle IPS
-- Technologie LCD:	IPS
-- Résolution Max:	1920 x 1080 pixels
-- Dot Pitch:	0.2745 mm
-- Luminosité:	250 cd/m²
-- Contraste:	20000000 /1
-- Temps de réponse:	7 ms
-- Angle de vision (horizontal):	178 Degré(s)
-- Angle de vision (vertical):	178 Degré(s)
-- Dalle mate/antireflets:	Oui
-- NVIDIA G-SYNC:	Non
-- Adaptive-Sync:	Non
-- AMD FreeSync:	Non
-- Flicker-Free:	Oui
-- Anti-lumière bleue:	Oui
+- Taille de l'écran</td><td>23.8 pouces
+- Format de l'écran</td><td>16/9
+- Type de Dalle</td><td>Dalle IPS
+- Technologie LCD</td><td>IPS
+- Résolution Max</td><td>1920 x 1080 pixels
+- Dot Pitch</td><td>0.2745 mm
+- Luminosité</td><td>250 cd/m²
+- Contraste</td><td>20000000 /1
+- Temps de réponse</td><td>7 ms
+- Angle de vision (horizontal)</td><td>178 Degré(s)
+- Angle de vision (vertical)</td><td>178 Degré(s)
+- Dalle mate/antireflets</td><td>Oui
+- NVIDIA G-SYNC</td><td>Non
+- Adaptive-Sync</td><td>Non
+- AMD FreeSync</td><td>Non
+- Flicker-Free</td><td>Oui
+- Anti-lumière bleue</td><td>Oui
 
 ## Ecran
-- Type d'écran:	LED
-- Ecran large:	Oui
-- Ecran incurvé:	Non
-- Borderless:	Oui
-- Compatible 3D:	Non
-- Ecran tactile:	Non
-- Fréquence verticale mini:	60 Hz
-- Type d'activités:	Bureautique
+- Type d'écran</td><td>LED
+- Ecran large</td><td>Oui
+- Ecran incurvé</td><td>Non
+- Borderless</td><td>Oui
+- Compatible 3D</td><td>Non
+- Ecran tactile</td><td>Non
+- Fréquence verticale mini</td><td>60 Hz
+- Type d'activités</td><td>Bureautique
 
 
 ## Ergonomie
-- Pivot:	Non
-- Pied réglable en hauteur:	Non
-- Pied amovible:	Oui
-- Fixation VESA:	N/A
-- Angle inclinaison vers l'arrière (haut):	21.5 Degré(s)
-- Angle inclinaison vers l'avant (bas):	3.5 Deg
+- Pivot</td><td>Non
+- Pied réglable en hauteur</td><td>Non
+- Pied amovible</td><td>Oui
+- Fixation VESA</td><td>N/A
+- Angle inclinaison vers l'arrière (haut)</td><td>21.5 Degré(s)
+- Angle inclinaison vers l'avant (bas)</td><td>3.5 Deg
 
 ## Connectique
-- Entrées vidéo:	1 X HDMI Femelle
+- Entrées vidéo</td><td>1 X HDMI Femelle
 - 1 X VGA (D-sub 15 Femelle)
-- Entrée audio:	Aucun(e)
-- Sorties audio:	1 X Line OUT (Jack 3.5mm Femelle)
+- Entrée audio</td><td>Aucun(e)
+- Sorties audio</td><td>1 X Line OUT (Jack 3.5mm Femelle)
 
 ## Multimédia
-- H.P. Intégrés:	Non
-- Webcam:	Non
-- Tuner TV:	Non
+- H.P. Intégrés</td><td>Non
+- Webcam</td><td>Non
+- Tuner TV</td><td>Non
 
 ## Caractéristiques physiques
-- Couleur:	Noir
-- Largeur:	540.1 mm
-- Hauteur:	417.4 mm
-- Profondeur:	186.8 mm
-- Poids:	2.48 kg
-- Pack multi-écrans:	Non
+- Couleur</td><td>Noir
+- Largeur</td><td>540.1 mm
+- Hauteur</td><td>417.4 mm
+- Profondeur</td><td>186.8 mm
+- Poids</td><td>2.48 kg
+- Pack multi-écrans</td><td>Non
 
 ## Alimentation
-- Consommation:	25 W
-- Consommation en veille:	0.5 W
-- Alimentation interne:	Non
+- Consommation</td><td>25 W
+- Consommation en veille</td><td>0.5 W
+- Alimentation interne</td><td>Non
 
