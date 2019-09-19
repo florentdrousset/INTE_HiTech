@@ -19,25 +19,40 @@
             <form action="#">
                 <input type="search">
             </form>
-            <span class="icon-user"></span>
-            <span class="icon-cart"></span>
+            <div>
+                <span class="icon-user"></span>
+                <p>Mon compte</p>
+            </div>
+            <div>
+                <span class="icon-cart"></span>
+                <p>Mon panier</p>
+                <p>109.94€</p>
+            </div>
             <nav class="navbar header__navbar">
                 <ul>
                     <li>
-                        <span class="icon-display"></span>
-                        <span>Ordinateurs</span>
+                        <a>
+                            <span class="icon-display"></span>
+                            <span>Ordinateurs</span>
+                        </a>
                     </li>
                     <li>
+                        <a>
                         <span class="icon-data"></span>
                         <span>Périphériques et composants</span>
+                        </a>
                     </li>
                     <li>
+                        <a>
                         <span class="icon-mobile2"></span>
                         <span>Téléphones</span>
+                        </a>
                     </li>
                     <li>
+                        <a>
                         <span class="icon-clock"></span>
                         <span>Objets connectés</span>
+                        </a>
                     </li>
                 </ul>
             </nav>
@@ -45,13 +60,15 @@
     </header>
     <main>
         <section class="main__header">
-            <a class="main_link" href="#">Accueil</a>
-            <span class="icon-arrow_forward_ios"></span>
-            <a class="main_link" href="#">Périphériques et composants</a>
-            <span class="icon-arrow_forward_ios"></span>
-            <a class="main_link" href="#">Ecrans d'ordinateur</a>
-            <span class="icon-arrow_forward_ios"></span>
-            AOC 24B1XHS
+            <div class="breadcrumb">
+                <a class="breadcrumb__link" href="#">Accueil</a>
+                <span class="icon-arrow_forward_ios breadcrumb__arrow"></span>
+                <a class="breadcrumb_link" href="#">Périphériques et composants</a>
+                <span class="icon-arrow_forward_ios breadcrumb__arrow"></span>
+                <a class="breadcrumb_link" href="#">Ecrans d'ordinateur</a>
+                <span class="icon-arrow_forward_ios breadcrumb__arrow"></span>
+                AOC 24B1XHS
+            </div>
             <h2 class="header_title">AOC 24B1XHS</h2>
             <span class="header_tag">1920 x 1080 pixels</span>
             <span class="header_tag">7ms</span>
@@ -61,13 +78,27 @@
             <span class="header_tag">VGA</span>
             <span class="header_tag">Noir</span>
 
+            <div class="toc">
+                <a class="toc__link" href="#">Présentation</a>
+                <a class="toc__link" href="#">Descriptif</a>
+                <a class="toc__link" href="#">Caractéristiques techniques</a>
+            </div>
             <hr>
 
         </section>
         <section class="main__product">
             <section class="main__presentation">
                 <h2 class="main__title">Présentation</h2>
-                <div class="main__slider"></div>
+                <div class="main__slider">
+                    <img src="images/product-1/slide-1-md.jpg" alt="Image d'ordinateur">
+                    <div class="fake-slider">
+                        <img src="images/product-1/slide-1-md.jpg" alt="">
+                        <img src="images/product-1/slide-2-md.jpg" alt="">
+                        <img src="images/product-1/slide-3-md.jpg" alt="">
+                        <img src="images/product-1/slide-4-md.jpg" alt="">
+                        <img src="images/product-1/slide-5-md.jpg" alt="">
+                    </div>
+                </div>
                 <aside class="main__paiement">
                     <div>
                         <p>109€94</p>

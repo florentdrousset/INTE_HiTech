@@ -4,11 +4,12 @@
 
 //couleurs
 
-$background-color: #eee;
+$background-color: #fff;
 $text-color: #444;
 $header-color: #2aa2d1;
 $link-color: #1991c0;
 $link-hover-color: #000;
+$tag-color: #eee;
 
 //fonts
 
@@ -41,10 +42,12 @@ body {
     font-size: 1.6rem;
     background-color: $background-color;
     color: $text-color;
+    margin: 0;
 }
 
 a {
     color: $link-color;
+    text-decoration: none;
     :hover {
         color: $link-hover-color;
     }
@@ -87,6 +90,23 @@ header {
         display: none;
     }
 
+    div {
+        div {
+            display: inline-block;
+            vertical-align: top;
+            margin: 2rem 1rem 0;
+            span[class*="icon"] {
+                color: white;
+                font-size: 3rem;
+                margin: 1rem 1rem 0 0;
+            }
+            p {
+                margin: 0;
+                color: white;
+                font-size: 1.4rem;
+            }
+        }
+    }
     ul {
         list-style: none;
         background-color: rgba(255, 255, 255, 0.3);
@@ -112,4 +132,78 @@ header {
         margin: 0;
 
     }
+}
+
+.header__navbar ul li{
+    margin: auto;
+    text-align: center;
+}
+
+.header__navbar a {
+    display: flex;
+    padding: 1em;
+    text-align:center;
+    margin: auto;
+
+}
+
+span[class*="icon"] {
+    font-size: 2.3rem;
+    margin-right: 1rem;
+}
+
+/********************/
+/***** MAIN *********/
+/********************/
+
+main {
+    width: 95%;
+    margin: auto;
+}
+.breadcrumb {
+    display: none;
+}
+
+.header_tag {
+    display: inline-block;
+    font-size: 1.3rem;
+    padding: 0.3rem 1rem;
+    margin: 0.2rem;
+    background-color: $tag-color;
+}
+
+.toc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    .toc__link {
+        font-size: 1.4rem;
+        margin-top: 0.8rem;
+    }
+}
+
+.main__product {
+    .main__presentation {
+
+    }
+}
+
+.main__slider {
+    width: 100%;
+    img {
+        width: 100%;
+    }
+}
+
+.fake-slider {
+    display: flex;
+    max-width: 100%;
+    justify-content: space-around;
+    img {
+        width: 10%;
+    }
+}
+
+.main__paiement {
+    background-color: #eee;
 }

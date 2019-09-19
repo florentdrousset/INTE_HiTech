@@ -5,8 +5,7 @@
 /******* BASE *******/
 /********************/
 html {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 63.5%;
   font-family: "Open Sans";
 }
@@ -14,14 +13,15 @@ html {
 body {
   max-width: 1140px;
   font-size: 1.6rem;
-  background-color: #eee;
+  background-color: #fff;
   color: #444;
+  margin: 0;
 }
 
 a {
   color: #1991c0;
+  text-decoration: none;
 }
-
 a :hover {
   color: #000;
 }
@@ -36,12 +36,12 @@ a :hover {
 }
 
 /* ==========================================
-  Single-colored icons can be modified like so:
-  .icon-name {
-    font-size: 32px;
-    color: red;
-  }
-  ========================================== */
+Single-colored icons can be modified like so:
+.icon-name {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
 /********************/
 /****** HEADER ******/
 /********************/
@@ -51,42 +51,116 @@ header {
   background-position: 50%;
   text-align: center;
 }
-
 header .header_logo {
   width: 20%;
   margin: 2rem auto 0 auto;
 }
-
 header form {
   display: none;
 }
-
+header div div {
+  display: inline-block;
+  vertical-align: top;
+  margin: 2rem 1rem 0;
+}
+header div div span[class*=icon] {
+  color: white;
+  font-size: 3rem;
+  margin: 1rem 1rem 0 0;
+}
+header div div p {
+  margin: 0;
+  color: white;
+  font-size: 1.4rem;
+}
 header ul {
   list-style: none;
   background-color: rgba(255, 255, 255, 0.3);
 }
-
 header ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 header ul li span {
   color: white;
 }
-
 header h1 {
   color: white;
   text-align: center;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
   margin: 0;
 }
-
 header h2 {
   text-align: center;
   font-size: 1.6rem;
   color: rgba(255, 255, 255, 0.5);
   margin: 0;
 }
+
+.header__navbar ul li {
+  margin: auto;
+  text-align: center;
+}
+
+.header__navbar a {
+  display: flex;
+  padding: 1em;
+  text-align: center;
+  margin: auto;
+}
+
+span[class*=icon] {
+  font-size: 2.3rem;
+  margin-right: 1rem;
+}
+
+/********************/
+/***** MAIN *********/
+/********************/
+main {
+  width: 95%;
+  margin: auto;
+}
+
+.breadcrumb {
+  display: none;
+}
+
+.header_tag {
+  display: inline-block;
+  font-size: 1.3rem;
+  padding: 0.3rem 1rem;
+  margin: 0.2rem;
+  background-color: #eee;
+}
+
+.toc {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.toc .toc__link {
+  font-size: 1.4rem;
+  margin-top: 0.8rem;
+}
+
+.main__slider {
+  width: 100%;
+}
+.main__slider img {
+  width: 100%;
+}
+
+.fake-slider {
+  display: flex;
+  max-width: 100%;
+  justify-content: space-around;
+}
+.fake-slider img {
+  width: 10%;
+}
+
+.main__paiement {
+  background-color: #eee;
+}
+
 /*# sourceMappingURL=style.css.map */
